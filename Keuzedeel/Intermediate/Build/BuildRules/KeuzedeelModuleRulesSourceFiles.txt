@@ -1,3 +1,3 @@
-C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source\Keuzedeel\Keuzedeel.Build.cs
-C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source\Keuzedeel.Target.cs
-C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source\KeuzedeelEditor.Target.cs
+D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source\Keuzedeel\Keuzedeel.Build.cs
+D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source\Keuzedeel.Target.cs
+D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source\KeuzedeelEditor.Target.cs

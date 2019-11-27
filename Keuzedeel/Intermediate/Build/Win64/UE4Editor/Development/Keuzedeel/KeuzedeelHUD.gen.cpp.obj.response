@@ -498,9 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I "C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel"
-/I "C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source"
-/I "C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source\Keuzedeel"
+/I "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel"
+/I "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source"
+/I "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source\Keuzedeel"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -532,12 +532,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel\KeuzedeelHUD.gen.cpp"
-/FI"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Definitions.Keuzedeel.h"
-/Fo"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelHUD.gen.cpp.obj"
+/FI"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel\KeuzedeelHUD.gen.cpp"
+/FI"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Definitions.Keuzedeel.h"
+/Fo"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelHUD.gen.cpp.obj"
 /TP
 /GR-
 /W4

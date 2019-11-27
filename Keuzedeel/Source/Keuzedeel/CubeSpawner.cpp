@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Runtime/Engine/Classes/Engine/World.h"
 #include "CubeSpawner.h"
+#include "Runtime/Engine/Classes/Engine/World.h"
+
 
 // Sets default values
 ACubeSpawner::ACubeSpawner()
@@ -12,7 +13,7 @@ ACubeSpawner::ACubeSpawner()
 	PrimaryActorTick.bCanEverTick = true;
 	amountToPlace = FVector(0,0,0);
 
-	SpawnedCubes.SetNumUninitialized(0,true);
+	//SpawnedCubes.SetNumUninitialized(0,true);
 }
 
 // Called when the game starts or when spawned
@@ -36,7 +37,7 @@ void ACubeSpawner::PlaceObject(int x, int y, int z)
 		FActorSpawnParameters spawnParams;
 		spawnParams.Owner = this;
 
-		FRotator rotator;
+		FRotator rotator = FRotator(0,0,0);
 
 		FVector spawnLocation = FVector(150 * x, 150 * y, 150 * z);
 		UE_LOG(LogTemp, Warning, TEXT("Spawn"));
@@ -57,7 +58,7 @@ void ACubeSpawner::OnConstruction(const FTransform& Transform)
 {
 	if (toSpawn) 
 	{
-		RemoveObjects();
+		//RemoveObjects();
 		for (int x = 0; x < amountToPlace.X; x++) {
 			for (int y = 0; y < amountToPlace.Y; y++) {
 				for (int z = 0; z < amountToPlace.Z; z++) {

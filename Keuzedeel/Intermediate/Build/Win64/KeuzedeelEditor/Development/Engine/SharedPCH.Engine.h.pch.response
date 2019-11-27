@@ -246,11 +246,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I "C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine"
-/Yc"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine"
+/Yc"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

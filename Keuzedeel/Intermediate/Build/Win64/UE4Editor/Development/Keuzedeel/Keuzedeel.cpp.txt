@@ -1,2 +1,2 @@
-C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Definitions.Keuzedeel.h
-C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source\Keuzedeel\Keuzedeel.h
+D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Definitions.Keuzedeel.h
+D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source\Keuzedeel\Keuzedeel.h
