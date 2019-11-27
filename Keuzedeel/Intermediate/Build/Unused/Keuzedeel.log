@@ -1,0 +1,34 @@
+﻿  Cleaning KeuzedeelEditor and UnrealHeaderTool binaries...
+  Creating makefile for KeuzedeelEditor (no existing makefile)
+  Parsing headers for KeuzedeelEditor
+    Running UnrealHeaderTool "C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Keuzedeel.uproject" "C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\KeuzedeelEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for KeuzedeelEditor in 5,4898824 seconds
+C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source\Keuzedeel\CubeSpawner.cpp(1): error : Expected CubeSpawner.h to be first header included.
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 21 actions with 8 processes...
+    [1/21] Default.rc2
+    [2/21] SharedPCH.Engine.cpp
+    [3/21] Keuzedeel.cpp
+    [4/21] Calculator.cpp
+    [5/21] CubeSpawner.cpp
+    [6/21] Calculator.gen.cpp
+    [7/21] KeuzedeelProjectile.cpp
+    [8/21] KeuzedeelHUD.cpp
+    [9/21] KeuzedeelGameMode.cpp
+    [10/21] Keuzedeel.init.gen.cpp
+    [11/21] KeuzedeelCharacter.gen.cpp
+    [12/21] KeuzedeelProjectile.gen.cpp
+    [13/21] KeuzedeelGameMode.gen.cpp
+    [14/21] KeuzedeelHUD.gen.cpp
+    [15/21] MyCube.gen.cpp
+    [16/21] CubeSpawner.gen.cpp
+    [17/21] MyCube.cpp
+    [18/21] KeuzedeelCharacter.cpp
+    [19/21] UE4Editor-Keuzedeel.lib
+       Creating library C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.lib and object C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.exp
+    [20/21] UE4Editor-Keuzedeel.dll
+       Creating library C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.suppressed.lib and object C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.suppressed.exp
+    [21/21] KeuzedeelEditor.target
+  Total time in Parallel executor: 20,75 seconds
+  Total execution time: 28,48 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""D:\Epic Games\UE_4.23\Engine\Build\BatchFiles\Rebuild.bat" KeuzedeelEditor Win64 Development -Project="C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Keuzedeel.uproject" -WaitMutex -FromMsBuild" exited with code -1.

@@ -1,0 +1,3 @@
+C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Definitions.Keuzedeel.h
+C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Source\Keuzedeel\Calculator.h
+C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel\Calculator.generated.h

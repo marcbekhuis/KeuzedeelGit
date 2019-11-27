@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Keuzedeel.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D0799B42-5139-430A-B670-2722611ED2BF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Keuzedeel.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\KeuzedeelEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7B1EB920-C560-4AA3-9F34-4E951E9788B8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Keuzedeel">
+      <UniqueIdentifier>{28BF27DE-B1D1-4E3E-BC16-EB1B531BF142}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Keuzedeel\Calculator.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Keuzedeel\Calculator.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Keuzedeel\Keuzedeel.Build.cs">
+      <Filter>Source\Keuzedeel</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Keuzedeel\Keuzedeel.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Keuzedeel\Keuzedeel.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Keuzedeel\KeuzedeelCharacter.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Keuzedeel\KeuzedeelCharacter.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Keuzedeel\KeuzedeelGameMode.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Keuzedeel\KeuzedeelGameMode.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Keuzedeel\KeuzedeelHUD.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Keuzedeel\KeuzedeelHUD.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Keuzedeel\KeuzedeelProjectile.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Keuzedeel\KeuzedeelProjectile.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Keuzedeel\CubeSpawner.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Keuzedeel\MyCube.h">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Keuzedeel\CubeSpawner.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Keuzedeel\MyCube.cpp">
+      <Filter>Source\Keuzedeel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Keuzedeel.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Calculator.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\CubeSpawner.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Keuzedeel.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelCharacter.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelGameMode.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelHUD.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelProjectile.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\MyCube.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Calculator.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\CubeSpawner.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Keuzedeel.init.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelCharacter.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelGameMode.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelHUD.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelProjectile.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\MyCube.gen.cpp.obj"
+"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Default.rc2.res"
+/OUT:"C:\Users\Gebruiker\Documents\Unreal Projects\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.lib"
+/INCLUDE:IMPLEMENT_MODULE_Keuzedeel
