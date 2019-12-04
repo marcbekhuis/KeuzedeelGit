@@ -39,6 +39,18 @@ void EmptyLinkFunctionForGeneratedCodeCubeSpawner() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_toSpawn;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_spacing_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_spacing;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_voidOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_voidOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_voidSize_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_voidSize;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_amountToPlace_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_amountToPlace;
@@ -64,14 +76,38 @@ void EmptyLinkFunctionForGeneratedCodeCubeSpawner() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACubeSpawner_Statics::NewProp_toSpawn = { "toSpawn", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeSpawner, toSpawn), Z_Construct_UClass_AMyCube_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_toSpawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_toSpawn_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubeSpawner_Statics::NewProp_spacing_MetaData[] = {
+		{ "Category", "Settings" },
+		{ "ModuleRelativePath", "CubeSpawner.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACubeSpawner_Statics::NewProp_spacing = { "spacing", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeSpawner, spacing), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_spacing_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_spacing_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidOffset_MetaData[] = {
+		{ "Category", "Settings" },
+		{ "ModuleRelativePath", "CubeSpawner.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidOffset = { "voidOffset", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeSpawner, voidOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidOffset_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidOffset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidSize_MetaData[] = {
+		{ "Category", "Settings" },
+		{ "ModuleRelativePath", "CubeSpawner.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidSize = { "voidSize", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeSpawner, voidSize), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidSize_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidSize_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACubeSpawner_Statics::NewProp_amountToPlace_MetaData[] = {
-		{ "Category", "Amount" },
+		{ "Category", "Settings" },
 		{ "ModuleRelativePath", "CubeSpawner.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACubeSpawner_Statics::NewProp_amountToPlace = { "amountToPlace", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACubeSpawner, amountToPlace), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_amountToPlace_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACubeSpawner_Statics::NewProp_amountToPlace_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACubeSpawner_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubeSpawner_Statics::NewProp_toSpawn,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubeSpawner_Statics::NewProp_spacing,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubeSpawner_Statics::NewProp_voidSize,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACubeSpawner_Statics::NewProp_amountToPlace,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACubeSpawner_Statics::StaticCppClassTypeInfo = {
@@ -101,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeCubeSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACubeSpawner, 623349680);
+	IMPLEMENT_CLASS(ACubeSpawner, 3284294760);
 	template<> KEUZEDEEL_API UClass* StaticClass<ACubeSpawner>()
 	{
 		return ACubeSpawner::StaticClass();

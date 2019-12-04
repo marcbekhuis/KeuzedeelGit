@@ -11,16 +11,14 @@ ACubeSpawner::ACubeSpawner()
 	PrimaryActorTick.bCanEverTick = true;
 
 	PrimaryActorTick.bCanEverTick = true;
-	amountToPlace = FVector(0,0,0);
-
-	//SpawnedCubes.SetNumUninitialized(0,true);
+	amountToPlace = FVector(0, 0, 0);
+	SpawnedCubes.SetNum(0, true);
 }
 
 // Called when the game starts or when spawned
 void ACubeSpawner::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -39,18 +37,24 @@ void ACubeSpawner::PlaceObject(int x, int y, int z)
 
 		FRotator rotator = FRotator(0,0,0);
 
-		FVector spawnLocation = FVector(150 * x, 150 * y, 150 * z);
+		FVector spawnLocation = FVector((100 + spacing.X) * x, (100 + spacing.Y) * y, (100 + spacing.Z) * z);
 		UE_LOG(LogTemp, Warning, TEXT("Spawn"));
-		SpawnedCubes.Add(world->SpawnActor<AMyCube>(toSpawn, spawnLocation, rotator, spawnParams));
+
+		AMyCube* spawnedCube = world->SpawnActor<AMyCube>(toSpawn, spawnLocation, rotator, spawnParams);
+
+		FString cubeName = "Cube_" + FString::FromInt(x) + "_" + FString::FromInt(y) + "_" + FString::FromInt(z);
+		spawnedCube->SetActorLabel(cubeName);
+
+		SpawnedCubes.Add(spawnedCube);
 	}
 }
 
 void ACubeSpawner::RemoveObjects() 
-{
-	for (int i = 0; i < 5; i++)
+{ 
+	while(SpawnedCubes.Num() > 0)
 	{
-		SpawnedCubes[i] -> Destroy();
-		SpawnedCubes.RemoveAt(i);
+		SpawnedCubes[0] -> Destroy();
+		SpawnedCubes.RemoveAt(0);
 	}
 }
 
@@ -58,11 +62,20 @@ void ACubeSpawner::OnConstruction(const FTransform& Transform)
 {
 	if (toSpawn) 
 	{
-		//RemoveObjects();
-		for (int x = 0; x < amountToPlace.X; x++) {
-			for (int y = 0; y < amountToPlace.Y; y++) {
-				for (int z = 0; z < amountToPlace.Z; z++) {
-					PlaceObject(x, y, z);
+		if (SpawnedCubes.Num() > 0)
+		{
+			RemoveObjects();
+		}
+
+		int arraySize = amountToPlace.X * amountToPlace.Y * amountToPlace.Z;
+
+		for (int x = 0; x < (int)amountToPlace.X; x++) {
+			for (int y = 0; y < (int)amountToPlace.Y; y++) {
+				for (int z = 0; z < (int)amountToPlace.Z; z++) {
+					if ((x < voidOffset.X && x > voidSize.X + voidOffset.X) && (y < voidOffset.Y && y > voidSize.Y + voidOffset.Y) && (z < voidOffset.Z && z > voidSize.Z + voidOffset.Z))
+					{
+						PlaceObject(x, y, z);
+					}
 				}
 			}
 		}

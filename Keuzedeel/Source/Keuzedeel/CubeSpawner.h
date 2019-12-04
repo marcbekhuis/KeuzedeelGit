@@ -30,8 +30,18 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere, Category = "Amount")
+	UPROPERTY(EditAnywhere, Category = "Settings")
 		FVector amountToPlace;
+
+	UPROPERTY(EditAnywhere, Category = "Settings")
+		FVector voidSize;
+
+	UPROPERTY(EditAnywhere, Category = "Settings")
+		FVector voidOffset;
+
+	UPROPERTY(EditAnywhere, Category = "Settings")
+		FVector spacing = FVector(50, 50, 50);
+
 	UPROPERTY(EditAnywhere, Category = "Object")
 		TSubclassOf<class AMyCube> toSpawn;
 
