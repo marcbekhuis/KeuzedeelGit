@@ -498,9 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
-/I "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel"
-/I "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source"
-/I "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Source\Keuzedeel"
+/I "D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel"
+/I "D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Source"
+/I "D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Source\Keuzedeel"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -527,17 +527,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel\KeuzedeelHUD.gen.cpp"
-/FI"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Definitions.Keuzedeel.h"
-/Fo"D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelHUD.gen.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Inc\Keuzedeel\KeuzedeelHUD.gen.cpp"
+/FI"D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\Definitions.Keuzedeel.h"
+/Fo"D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\KeuzedeelHUD.gen.cpp.obj"
 /TP
 /GR-
 /W4

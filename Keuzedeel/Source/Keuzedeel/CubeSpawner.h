@@ -34,12 +34,6 @@ public:
 		FVector amountToPlace;
 
 	UPROPERTY(EditAnywhere, Category = "Settings")
-		FVector voidSize;
-
-	UPROPERTY(EditAnywhere, Category = "Settings")
-		FVector voidOffset;
-
-	UPROPERTY(EditAnywhere, Category = "Settings")
 		FVector spacing = FVector(50, 50, 50);
 
 	UPROPERTY(EditAnywhere, Category = "Object")

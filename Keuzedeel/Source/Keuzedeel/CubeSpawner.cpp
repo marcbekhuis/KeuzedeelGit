@@ -72,10 +72,7 @@ void ACubeSpawner::OnConstruction(const FTransform& Transform)
 		for (int x = 0; x < (int)amountToPlace.X; x++) {
 			for (int y = 0; y < (int)amountToPlace.Y; y++) {
 				for (int z = 0; z < (int)amountToPlace.Z; z++) {
-					if ((x < voidOffset.X && x > voidSize.X + voidOffset.X) && (y < voidOffset.Y && y > voidSize.Y + voidOffset.Y) && (z < voidOffset.Z && z > voidSize.Z + voidOffset.Z))
-					{
-						PlaceObject(x, y, z);
-					}
+					PlaceObject(x, y, z);
 				}
 			}
 		}

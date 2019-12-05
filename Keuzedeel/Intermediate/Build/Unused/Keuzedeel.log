@@ -1,6 +1,33 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Engine\KeuzedeelGit).
+﻿  Cleaning KeuzedeelEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Epic Games\Eigen saves\KeuzedeelGit).
+  Creating makefile for KeuzedeelEditor (no existing makefile)
   Parsing headers for KeuzedeelEditor
-    Running UnrealHeaderTool "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Keuzedeel.uproject" "D:\Unreal Engine\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\KeuzedeelEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for KeuzedeelEditor in 5,3424821 seconds
-  Target is up to date
-  Total execution time: 6,21 seconds
+    Running UnrealHeaderTool "D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Keuzedeel.uproject" "D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\KeuzedeelEditor\Development\KeuzedeelEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for KeuzedeelEditor in 5,148084 seconds
+  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 21 actions with 8 processes...
+    [1/21] Default.rc2
+    [2/21] SharedPCH.Engine.cpp
+    [3/21] Calculator.cpp
+    [4/21] KeuzedeelProjectile.cpp
+    [5/21] Calculator.gen.cpp
+    [6/21] Keuzedeel.cpp
+    [7/21] KeuzedeelHUD.cpp
+    [8/21] KeuzedeelGameMode.cpp
+    [9/21] CubeSpawner.cpp
+    [10/21] KeuzedeelCharacter.cpp
+    [11/21] Keuzedeel.init.gen.cpp
+    [12/21] KeuzedeelHUD.gen.cpp
+    [13/21] KeuzedeelGameMode.gen.cpp
+    [14/21] KeuzedeelCharacter.gen.cpp
+    [15/21] MyCube.cpp
+    [16/21] MyCube.gen.cpp
+    [17/21] CubeSpawner.gen.cpp
+    [18/21] KeuzedeelProjectile.gen.cpp
+    [19/21] UE4Editor-Keuzedeel.lib
+       Creating library D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.lib and object D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.exp
+    [20/21] UE4Editor-Keuzedeel.dll
+       Creating library D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.suppressed.lib and object D:\Epic Games\Eigen saves\KeuzedeelGit\Keuzedeel\Intermediate\Build\Win64\UE4Editor\Development\Keuzedeel\UE4Editor-Keuzedeel.suppressed.exp
+    [21/21] KeuzedeelEditor.target
+  Total time in Parallel executor: 21,59 seconds
+  Total execution time: 32,31 seconds
